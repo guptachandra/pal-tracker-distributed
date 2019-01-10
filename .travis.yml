@@ -4,7 +4,6 @@ notifications:
   email: false
 env:
   - RELEASE_TAG="release-$TRAVIS_BUILD_NUMBER"
-  - _JAVA_OPTIONS="-Xmx512m -Xms512m"
 stages:
   - build and publish
   - deploy
